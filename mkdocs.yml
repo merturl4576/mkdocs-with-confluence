@@ -1,0 +1,24 @@
+site_name: MyFile
+docs_dir: docs
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Configuration: configuration.md
+  - Troubleshooting: troubleshooting.md
+  - Improvements: improvements.md
+
+plugins:
+  - search
+  - mkdocs-with-confluence:
+      host_url:        "https://denizuguz24.atlassian.net/wiki/rest/api/content"
+      space:           "~71202008a0eeafe8e84afa892c5a3e72e71ca6"
+      parent_page_name: "Overview"
+      username:        "denizuguz24@gmail.com"
+      password:        "ATATT3xFfGF0X4SzdYM-…-BCB725A7"
+      enabled_if_env:  MKDOCS_TO_CONFLUENCE
+      dryrun:          false 
+
+theme:
+  name: material
+
