@@ -15,7 +15,7 @@ plugins:
       space:           "~71202008a0eeafe8e84afa892c5a3e72e71ca6"
       parent_page_name: "Overview"
       username:        "denizuguz24@gmail.com"
-      password:        "ATATT3xFfGF0X4SzdYM-…-BCB725A7"
+      password:        "REPLACE_ME"
       enabled_if_env:  MKDOCS_TO_CONFLUENCE
       dryrun:          false 
 
