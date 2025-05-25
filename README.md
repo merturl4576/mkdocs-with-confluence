@@ -24,9 +24,9 @@ This project uses MkDocs to generate documentation locally and integrates with A
 3. **Install dependencies**
 
    ```bash
- pip install --upgrade pip
- pip install mkdocs mkdocs-material mkdocs-with-confluence
- pip install -r requirements.txt
+   pip install --upgrade pip
+  	pip install mkdocs mkdocs-material mkdocs-with-confluence
+   pip install -r requirements.txt
    ```
 
 4. **Set environment variable for Confluence publishing**
