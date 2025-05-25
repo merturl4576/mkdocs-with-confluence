@@ -87,4 +87,4 @@ Publishes the static site to GitHub Pages at `https://your-username.github.io/yo
 
 ## License
 
-MIT © viana
+MIT © mert
